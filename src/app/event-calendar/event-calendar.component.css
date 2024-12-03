@@ -1,7 +1,15 @@
+/* import Event Calendar styles */
 @import "@dhx/trial-eventcalendar/dist/event-calendar.css";
 
+/* specify styles for initial page */
+html,
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+/* specify styles for the Event Calendar container */
 .widget {
-	position: relative;
-	width: 100%;
-	height: 100%;
+    height: 100%;
 }
